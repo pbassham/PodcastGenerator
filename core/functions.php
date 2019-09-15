@@ -89,7 +89,7 @@ function renamefile ($filetorename) { // normal file rename policy
 
 	$filetorename = strtolower($filetorename); // lower-case.
 	$filetorename = strip_tags($filetorename); // remove HTML tags.
-	$filetorename = preg_replace('!\s+!','_',$filetorename); // change space chars to underscores.
+	$filetorename = preg_replace('!\s+!\?','_',$filetorename); // change space chars to underscores.
 	$filetorename = stripslashes($filetorename); //remove slashes in the file name
 	$filetorename = str_replace("'", "", $filetorename);
 	$filetorename = str_replace("&", "_and_", $filetorename);
