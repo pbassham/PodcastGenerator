@@ -233,29 +233,29 @@ if(isUserLogged()) {
 
 			<select name="recent" id="recent">
 
-			<option value=\'2\'';
-		if ($max_recent == 2) { $PG_mainbody .= ' selected'; }
-		$PG_mainbody .= '>2</option>
+			<option value=\'25\'';
+		if ($max_recent == 25) { $PG_mainbody .= ' selected'; }
+		$PG_mainbody .= '>25</option>
 
-			<option value=\'4\'';
-		if ($max_recent == 4) { $PG_mainbody .= ' selected'; }
-		$PG_mainbody .= '>4</option>  
+			<option value=\'50\'';
+		if ($max_recent == 50) { $PG_mainbody .= ' selected'; }
+		$PG_mainbody .= '>50</option>  
 
-			<option value=\'6\'';
-		if ($max_recent == 6) { $PG_mainbody .= ' selected'; }
-		$PG_mainbody .= '>6</option>
+			<option value=\'75\'';
+		if ($max_recent == 75) { $PG_mainbody .= ' selected'; }
+		$PG_mainbody .= '>75</option>
 		
-			<option value=\'8\'';
-		if ($max_recent == 8) { $PG_mainbody .= ' selected'; }
-		$PG_mainbody .= '>8</option>
+			<option value=\'80\'';
+		if ($max_recent == 80) { $PG_mainbody .= ' selected'; }
+		$PG_mainbody .= '>80</option>
 		
-			<option value=\'10\'';
-		if ($max_recent == 10) { $PG_mainbody .= ' selected'; }
-		$PG_mainbody .= '>10</option>
+			<option value=\'100\'';
+		if ($max_recent == 100) { $PG_mainbody .= ' selected'; }
+		$PG_mainbody .= '>100</option>
 
-			<option value=\'20\'';
-		if ($max_recent == 20) { $PG_mainbody .= ' selected'; }
-		$PG_mainbody .= '>20</option>
+			<option value=\'150\'';
+		if ($max_recent == 150) { $PG_mainbody .= ' selected'; }
+		$PG_mainbody .= '>150</option>
 			</select>
 			';
 
